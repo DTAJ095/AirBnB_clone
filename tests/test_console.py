@@ -11,8 +11,11 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(True, False)  # add assertion here
         except AssertionError:
             pass
+
+
 with patch('sys.stdout', new=StringIO()) as f:
     HBNBCommand().onecmd("help show")
+
 
 if __name__ == '__main__':
     unittest.main()
