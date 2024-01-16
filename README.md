@@ -55,7 +55,8 @@ $
 <h2>More Info</h2>
  *The code passes a Pycodestyle checks
  *All files, classes and functions tested with unit tests
-    #####Example####
+#####Example####
+
 	  guillaume@ubuntu:~/AirBnB$ python3 -m unittest discover tests
       ..............................................................................
       ........................................................................
@@ -65,9 +66,10 @@ $
 
       OK
       guillaume@ubuntu:~/AirBnB$
-	  
-	Note that this is just an example, the number of tests creaed can be different from the above example
-	<hr>
+	 
+
+Note that this is just an example, the number of tests creaed can be different from the above example
+
 	<hr>
 	
 ## 0x00.Table of contents
